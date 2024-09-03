@@ -1,0 +1,971 @@
+.main {
+    height: 1969px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+
+.containerone {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    height: 160px;
+    background-color: #2e5e89;
+
+}
+
+
+.containertwo {
+    height: 46px;
+    background-color: #13436e;
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+  
+    
+}
+.containerthree {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    height: 42px;
+    background-color: #13436e;;
+    border-bottom-left-radius: 10px; /* Round the top-left corner */
+    border-bottom-right-radius: 10px; /* Round the top-right corner */
+    border-top-left-radius: 0; /* Set bottom-left corner to square */
+    border-top-right-radius: 0;
+    
+    
+}
+
+.containerfour {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    height: 514px;
+    background-color: #f6f8fa; 
+    margin-top: 13px;
+    border-bottom-left-radius: 10px; /* Round the top-left corner */
+    border-bottom-right-radius: 10px; /* Round the top-right corner */
+    border-top-left-radius: 10px; /* Set bottom-left corner to square */
+    border-top-right-radius: 10px; /* Set bottom-right corner to square */
+    box-shadow: 0px 0px 10px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+.imageleft img,
+.imageright img {
+    height: 135px;
+    position: absolute;
+    top: 15px;
+}
+
+.imageleft img {
+    left: 16.5%;
+}
+
+.imageright img {
+    right: 16.5%;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.heading h1 {
+    margin: 0;
+    font-size: 35px;
+    color: white;
+    height: 130;
+}
+
+.one {
+    height: 46px;
+    width: 5%;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white; /* Change the text color */
+    float: left;
+    background-color: #2e5e89;
+    border: 1px solid #34648f; /* Correct syntax for border color */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-weight: bold;
+}
+.two {
+    height: 46px;
+    width: 11%;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white; /* Change the text color */
+    float:left;
+    border: 1px solid #34648f; /* Correct syntax for border color */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-weight: bold;
+}
+.three {
+    height: 46px;
+    width: 11%;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white; /* Change the text color */
+    float:left;
+    border: 1px solid #34648f; /* Correct syntax for border color */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-weight: bold;
+}
+.four {
+    height: 46px;
+    width: 11%;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white; /* Change the text color */
+    float:left;
+    border: 1px solid #34648f; /* Correct syntax for border color */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-weight: bold;
+}
+.five{
+    height: 46px;
+    width: 11%;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white; /* Change the text color */
+    float:left;
+    border: 1px solid #34648f; /* Correct syntax for border color */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-weight: bold;
+}
+.six{
+    height: 46px;
+    width: 11%;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white; /* Change the text color */
+    float:left;
+    border: 1px solid #34648f; /* Correct syntax for border color */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-weight: bold;
+}
+.seven{
+    height: 46px;
+    width: 11%;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white; /* Change the text color */
+    float:left;
+    border: 1px solid #34648f; /* Correct syntax for border color */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-weight: bold;
+}
+.eight {
+    height: 46px;
+    width: 11%;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white; /* Change the text color */
+    float:left;
+    border: 1px solid #34648f; /* Correct syntax for border color */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-weight: bold;
+}
+.nine {
+    height: 46px;
+    width: 11%;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white; /* Change the text color */
+    float:left;
+    border: 1px solid #34648f; /* Correct syntax for border color */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-weight: bold;
+}
+.ten {
+    height: 46px;
+    width: 7%;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white; /* Change the text color */
+    float:left;
+    border: 1px solid #34648f; /* Correct syntax for border color */
+  
+}
+
+
+/* Hover effect for divs except .one and .ten */
+.containertwo div:not(.one):not(.ten):hover {
+    background-color: #2e5e89; /* Change to the desired hover color */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.firstpart {
+    height: 42px;
+    width: 9%;
+    font-size: 15px;
+    padding-left: 5px;
+    color: white;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    background-color: #e71192;
+    border-bottom-left-radius: 10px; /* Round the top-left corner */
+    border-bottom-right-radius: 0; /* Round the top-right corner */
+    border-top-left-radius: 0; /* Set bottom-left corner to square */
+    border-top-right-radius: 0;
+}
+
+.secondpart {
+    height: 42px;
+    width: 91%;
+    font-size: 15px;
+    color: white;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    background-color: #2e5e89;
+    overflow: hidden; /* Hide any overflow */
+    border-bottom-left-radius: 0; /* Round the top-left corner */
+    border-bottom-right-radius: 10px; /* Round the top-right corner */
+    border-top-left-radius: 0; /* Set bottom-left corner to square */
+    border-top-right-radius: 0;
+   
+}
+.imagediv img {
+    display: none;
+    width: 100%; /* Adjust width to fill the container */
+    height: 100%; /* Adjust height to fill the container */
+    object-fit: contain; /* Scale image to fit container while maintaining aspect ratio */
+}
+
+
+.seconddiv {
+    height: 494px;
+    width: 26%;
+    background-color:#f6f6f6;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px #f6f6f6, 0px 0px 10px #f6f6f6;
+}
+
+.imagediv {
+    height: 494px;
+    width: 70%;
+    background-color:#ffffff;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.notice{
+    height: 42px;
+    width: 97%;
+    background-color:#2e5e89;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center; /* Center align the text */
+    color: white;
+   
+    border-bottom-left-radius: 7px; /* Round the top-left corner */
+    border-bottom-right-radius: 7px; /* Round the top-right corner */
+    border-top-left-radius: 7px; /* Set bottom-left corner to square */
+    border-top-right-radius: 7px;
+}
+
+.midpart {
+    height: 395px;
+    width: 97%;
+    background-color: #f6f6f6;
+    border-bottom-left-radius: 7px; /* Round the top-left corner */
+    border-bottom-right-radius: 7px; /* Round the top-right corner */
+    border-top-left-radius: 7px; /* Set bottom-left corner to square */
+    border-top-right-radius: 7px;
+    overflow: hidden; /* Ensure content is clipped */
+    position: relative; /* Required for absolute positioning */
+}
+
+.scrolling-content {
+    animation: scroll 17s linear infinite; /* Adjust duration as needed */
+    position: absolute; /* Position the scrolling content */
+    bottom: 0; /* Start from the bottom of the container */
+    left: 0; /* Start from the left of the container */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.button{
+    height: 42px;
+    width: 97%;
+    background-color:#f6f6f6;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.part1{
+    height: 100%;
+    width: 60%;
+    background-color:#f6f6f6;
+    float: left;
+    
+}
+.part2{
+    height: 80%;
+    width: 40%;
+    background-color:#e71192;
+    border-bottom-left-radius: 7px; /* Round the top-left corner */
+    border-bottom-right-radius: 7px; /* Round the top-right corner */
+    border-top-left-radius: 7px; /* Set bottom-left corner to square */
+    border-top-right-radius: 7px;
+    float: left;
+    text-align: center;
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    font-weight: bold;
+    color: white;
+}
+.news1{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 1px; /* Round the top-left corner */
+    border-bottom-right-radius: 1px; /* Round the top-right corner */
+    border-top-left-radius: 1px; /* Set bottom-left corner to square */
+    border-top-right-radius: 1px;
+    float: left;
+   
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    border: 1px solid #c5c5c5; 
+    color: #787878;
+    font-size: 14px;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+   
+
+}
+.news{
+    margin-top: 3px;
+    margin-bottom: 3px;
+   
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 1px; /* Round the top-left corner */
+    border-bottom-right-radius: 1px; /* Round the top-right corner */
+    border-top-left-radius: 1px; /* Set bottom-left corner to square */
+    border-top-right-radius: 1px;
+    float: left;
+   
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    border: 1px solid #c5c5c5; 
+    color: #787878;
+    font-size: 14px;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    padding-left: 2px;
+    
+}
+
+
+.containerfive{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    height: 705px;
+    background-color: #f5f5f5; 
+    margin-top: 14px;
+    border-bottom-left-radius: 10px; /* Round the top-left corner */
+    border-bottom-right-radius: 10px; /* Round the top-right corner */
+    border-top-left-radius: 10px; /* Set bottom-left corner to square */
+    border-top-right-radius: 10px; /* Set bottom-right corner to square */
+    box-shadow: 0px 0px 10px rgba(0.2, 0.2, 0.2, 0.2);
+   
+}
+.tecaherinfo{
+    height: 100%;
+    width: 76%;
+    background-color:white;
+    float: left;
+  
+    margin-right: 22px;
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    border-bottom-left-radius: 7px; /* Round the top-left corner */
+    border-bottom-right-radius: 7px; /* Round the top-right corner */
+    border-top-left-radius: 7px; /* Set bottom-left corner to square */
+    border-top-right-radius: 10px;
+   
+}
+.otherinfo{
+    height: 88%;
+    width: 21.5%;
+    background-color:#f6f6f6;
+    float: left;
+    margin-left: 9px;
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    border-bottom-left-radius: 8px; /* Round the top-left corner */
+    border-bottom-right-radius: 8px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0.2, 0.2, 0.2, 0.2);
+    margin-right: 1px;
+}
+.same{
+    height: 230px;
+    width: 100%;
+    background-color: white;
+    float: left;
+  
+}
+.row1{
+    height: 40px;
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+    background-color: #2e5e89;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+}
+
+.row2{
+    height: 265px;
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+    background-color: white;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+}
+.colum1{
+
+    height: 60%;
+    width: 22%;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    background-color: white;
+    float: left;
+    border: 1px solid #e0e0e0; 
+}
+.colum2{
+
+    height: 60%;
+    width: 74%;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    background-color: white;
+    float: left;
+   
+    margin-left: 5px;
+    margin-right: 5px;
+   
+    padding-bottom: 10px;
+ 
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+
+.read-more-link {
+    color: white;
+    background-color: #e71192;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 15px;
+    display: inline-block;
+    margin-top: 3px;
+    text-align: center;
+
+  
+}
+
+.read-more-link:hover {
+    background-color: darkpink;
+}
+.colum3{
+    height: 60%;
+    width: 60%;
+    background-color: white;
+    float: left;
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 5px;
+ 
+ 
+    text-align: justify;
+    font-size: 14px;
+    float: left;
+
+}
+
+.colum4{
+
+    height: 70%;
+    width: 36%;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    background-color: white;
+    float: left;
+    border: 1px solid #e0e0e0; 
+    float: left;
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.colum5{
+
+    height: 70%;
+    width: 98%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 6px;
+   
+    background-color: white;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+
+
+#photo-left,
+#photo-right {
+    height: 98%;
+    width: 49%; /* Adjusted width to accommodate reduced margins */
+    border: 0.5px solid #808080;
+}
+
+#photo-left {
+    margin-right: 1%; /* Adjusted margin */
+}
+
+#photo-right {
+    margin-left: 1%; /* Adjusted margin */
+}
+
+.containersix{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    height: 22px;
+    background-color: white; 
+    margin-top: 14px;
+    border-bottom-left-radius: 10px; /* Round the top-left corner */
+    border-bottom-right-radius: 10px; /* Round the top-right corner */
+    border-top-left-radius: 10px; /* Set bottom-left corner to square */
+    border-top-right-radius: 10px; /* Set bottom-right corner to square */
+    box-shadow: 0px 0px 10px rgba(0.2, 0.2, 0.2, 0.2);
+   
+}
+
+.containerseven{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    height: 360px;
+    background-color: white; 
+    margin-top: 14px;
+    border-bottom-left-radius: 10px; /* Round the top-left corner */
+    border-bottom-right-radius: 10px; /* Round the top-right corner */
+    border-top-left-radius: 10px; /* Set bottom-left corner to square */
+    border-top-right-radius: 10px; /* Set bottom-right corner to square */
+    box-shadow: 0px 0px 10px rgba(0.2, 0.2, 0.2, 0.2);
+   
+}
+
+.containereight{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    height: 50px;
+    background-color: #2e5e89; 
+    margin-top: 14px;
+    border-bottom-left-radius: 0; /* Round the top-left corner */
+    border-bottom-right-radius: 0; /* Round the top-right corner */
+    border-top-left-radius: 10px; /* Set bottom-left corner to square */
+    border-top-right-radius: 10px; /* Set bottom-right corner to square */
+    box-shadow: 0px 0px 10px rgba(0.2, 0.2, 0.2, 0.2);
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+
+    color: white;
+   font-size: 15px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.same2{
+    height: 95%;
+    width: 33%;
+    background-color: white;
+    float: left;
+    
+    margin-top: 14px;
+    margin-left: 3px;
+    
+}
+
+.info{
+    height: 40px;
+    width: 96%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+    background-color: #2e5e89;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    font-size: 20px;
+    float: left;
+
+}
+#photo2{
+    height: 80%;
+    width: 96%;
+    align-items: center;
+    margin-left: 8px;
+    margin-top: 8px;
+    box-shadow: 0px 0px 10px rgba(0.2, 0.2, 0.2, 0.2);
+
+}
+
+.info-content{
+height: 80% ;
+width: 96%;
+background-color: white;
+margin-top: 58px;
+
+margin-left: 8px;
+margin-right: 5px;
+padding-top: 5px; /* Add top padding */
+padding-bottom: 5px; /* Add bottom padding */
+color: grey;
+font-size: 19px;
+margin-bottom: 10px; /* Add margin bottom for line break */
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contact-info2 {
+    position: relative; /* Needed for absolute positioning */
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info2 p {
+    margin-left: 10px;
+    margin-top: 8px; /* Adjust top margin as needed */
+  }
+  
+  .contact-info2 img {
+    margin-right: 12px;
+  }
+  
+  .contact-info2::after {
+    content: ''; /* Empty content */
+    position: absolute; /* Position absolute */
+    left: 0; /* Line starts from left */
+    bottom: -5px; /* Adjust line position */
+    width: 100%; /* Line spans the entire width */
+    border-bottom: 1px solid #dddddd; /* Line style */
+  }
+  .info-content2{
+    height: 80% ;
+    width: 96%;
+    background-color: white;
+    margin-top: 58px;
+    
+    margin-left: 8px;
+    margin-right: 5px;
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px; /* Add margin bottom for line break */
+    position: relative;
+    font-family: 'Nunito', 'Kalpurush', sans-serif;
+    }
+    
+  table {
+    width: 100%;
+    height: 200px; /* Set the height of the table */
+    border-collapse: collapse;
+    border: 1px solid grey; /* Add border to the table */
+    overflow-y: auto; /* Add vertical scrolling if content overflows */
+  }
+  td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  tr:first-child {
+    background-color: gray; /* Style the first row */
+    color: black; /* Text color for the first row */
+  }
+  tr:nth-child(even) {
+    background-color: #ffffff; /* White background color for even rows */
+  }
+  tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Gray background color for odd rows */
+  }
+
+
+  .newrow1{
+    height: 50%;
+    width: 99%;
+    background-color: #f6f6f6;
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .newrow2{
+    height: 20%;
+    width: 99%;
+    background-color: #f6f6f6;
+    float: left;
+   
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .newrow3{
+    height: 30%;
+    width: 99%;
+    background-color: #f6f6f6;
+    float: left;
+   
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .link{
+    height: 40px;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 10px;
+    background-color: #2e5e89;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 7px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+
+  }
+
+  .otherlink{
+    height: 250px;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 10px;
+    background-color: #f6f6f6;
+    
+    font-weight: bold;
+    color: white;
+    
+    padding-top: 7px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .same3{
+   height: 15%;
+   width: 98%;
+   background-color: #f6f6f6;
+   padding-top: 7px; /* Add top padding */
+   padding-bottom: 5px; /* Add bottom padding */
+   color: grey;
+   border: 1px solid #dddddd;
+   border-bottom-left-radius: 5px; /* Round the top-left corner */
+   border-bottom-right-radius: 5px; /* Round the top-right corner */
+   border-top-left-radius: 5px; /* Set bottom-left corner to square */
+   border-top-right-radius: 5px;
+   
+ 
+   margin-bottom: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   padding-left: 5px;
+  }
+
+  .read-more-link2 {
+    color: white;
+    background-color: #e71192;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 15px;
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 6px; /* Move the box 5px to the left */
+    text-align: center;
+}
+
+.read-more-link2:hover {
+    background-color: darkpink;
+}
+
+.link2{
+    height: 35px;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 10px;
+    background-color: #f6f6f6 ;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    padding-left: 10px;
+    color: grey;
+    border: 1px solid #dddddd;
+    padding-top: 7px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    font-size: 15px;
+
+  }
+
+  .link3{
+    height: 133px;
+    width: 95%;
+    margin-top: 5px;
+   
+    margin-left: 8px;
+    margin-right: 10px;
+    background-color: #f6f6f6;
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-right-radius: 5px; /* Round the top-right corner */
+    border-top-left-radius: 5px; /* Set bottom-left corner to square */
+    border-top-right-radius: 5px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    padding-top: 7px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    border-bottom-left-radius: 5px; /* Round the top-left corner */
+   border-bottom-right-radius: 5px; /* Round the top-right corner */
+   border-top-left-radius: 5px; /* Set bottom-left corner to square */
+   border-top-right-radius: 5px;
+  }
+
+  
+  .contact-info3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Decreased margin between divs */
+  }
+  
+  .contact-info3 p {
+    margin-left: 5px; /* Decreased left margin */
+    margin-top: 8px;
+  }
+  
+  .contact-info3 img {
+    margin-right: 8px; /* Decreased right margin */
+  }
+  
+  .contact-info3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjusted line position */
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .contact-info3 {
+    height: 20%; /* Decreased height */
+    width: 96%;
+    background-color: f6f6f6;
+    margin-top: 2px; /* Decreased top margin */
+   
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 5px; /* Decreased bottom margin */
+    position: relative;
+    font-family: 'Nunito', 'Kalpurush', sans-serif;
+  }
+
+
